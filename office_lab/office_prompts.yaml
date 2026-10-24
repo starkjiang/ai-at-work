@@ -1,0 +1,61 @@
+# The six office-lab prompts, app-independent. {csv} is replaced with the dataset.
+steps:
+  - id: 1
+    name: Describe the data
+    app: Excel Copilot
+    prompt: |
+      Describe this table: what does each column mean, what time range does it cover,
+      and how many suppliers are there? Two short paragraphs, no bullet spam.
+
+      {csv}
+  - id: 2
+    name: Ask for insight
+    app: Excel Copilot
+    prompt: |
+      Which 3 suppliers have the lowest average on-time % across the year? Return a table
+      with Supplier, Region, Avg on-time %, Trend (improving / flat / worsening), then one
+      sentence recommending a chart type for an executive audience.
+
+      {csv}
+  - id: 3
+    name: Clean and summarize
+    app: Excel Copilot
+    prompt: |
+      First, list any exact duplicate rows and any rows with a blank region (give supplier
+      and month). Then summarize total spend, average on-time %, and total defects by
+      region as a table sorted by spend. Show the arithmetic for one region so I can verify it.
+
+      {csv}
+  - id: 4
+    name: Draft the email
+    app: Outlook Copilot
+    system: You write short, professional business emails.
+    prompt: |
+      Draft an email to the account manager at the supplier with the lowest average on-time %
+      in this data, about their delivery falling below our 95% target. Tone: firm but
+      collaborative. Under 150 words. Cite their actual number. End with one specific ask and a date.
+
+      {csv}
+  - id: 5
+    name: Build the deck
+    app: PowerPoint Copilot
+    prompt: |
+      Outline a 5-slide supplier performance review for a leadership meeting from this data:
+      summary, three lowest performers with trend, regional comparison, defects vs. spend,
+      recommended actions. For each slide give a title, 3 bullets max, and 2 sentences of
+      speaker notes. One idea per slide.
+
+      {csv}
+  - id: 6
+    name: Recap the discussion
+    app: Teams Copilot
+    prompt: |
+      Summarize the meeting notes below for someone who was not there. Sections: Decisions,
+      Action items (Owner | Action | Due), Open questions. Under 150 words.
+
+      Notes:
+      - Dana: Delta Seals on-time is trending down all year; we should freeze new orders until they send a plan.
+      - Marcus: Agreed on the freeze. I'll send the email Friday.
+      - Priya: Harbor Forge is also under 80% but flat. Do we treat them the same way? Not decided.
+      - Dana: Regional summary goes to leadership Monday. Priya owns the deck.
+      - Marcus: Two duplicate rows in the export — Priya will ask IT why the export repeats rows.

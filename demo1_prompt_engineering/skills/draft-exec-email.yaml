@@ -1,0 +1,19 @@
+name: draft-exec-email
+description: Draft a short professional email from a brief, with a controlled tone and a specific ask.
+inputs:
+  file: Path to a text file containing the brief (who, what, why, desired outcome)
+  tone: e.g. "firm but collaborative", "warm", "neutral"
+mock_key: skill_draft_email
+prompt: |
+  Task: Draft a professional email from the brief below.
+
+  Context:
+  {file_contents}
+
+  Constraints:
+  - Tone: {tone}
+  - Under 150 words. No jargon. No apologies for things we did not do.
+  - Use [placeholders] for any name, date, or figure not in the brief.
+
+  Output format:
+  Subject line, then the email body. End with one specific, answerable ask.

@@ -1,0 +1,20 @@
+name: generate-unit-tests
+description: Write a pytest suite for a Python function, covering happy path and specified edge cases.
+inputs:
+  file: Path to the Python source file
+  edge_cases: Comma-separated edge cases to cover
+prompt: |
+  Task: Write pytest unit tests for the code below.
+
+  Context:
+  ```python
+  {file_contents}
+  ```
+
+  Constraints:
+  - Use pytest only; no mocks unless the code touches I/O.
+  - Cover: (1) the happy path, (2) these edge cases: {edge_cases}.
+  - One behavior per test; descriptive test names.
+
+  Output format:
+  A single Python code block, no explanation unless a test encodes a non-obvious assumption.

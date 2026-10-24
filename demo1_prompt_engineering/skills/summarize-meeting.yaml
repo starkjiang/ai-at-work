@@ -1,0 +1,20 @@
+name: summarize-meeting
+description: Turn a meeting transcript or notes into decisions, action items with owners, and open questions.
+inputs:
+  file: Path to a transcript or notes text file
+mock_key: skill_summarize_meeting
+prompt: |
+  Task: Summarize the meeting below for people who were not there.
+
+  Context:
+  {file_contents}
+
+  Constraints:
+  - Only include decisions that were explicitly agreed, not proposals.
+  - Every action item needs an owner; write "unassigned" if none was named.
+  - Keep it under 200 words.
+
+  Output format (Markdown):
+  **Decisions** — bullets
+  **Action items** — table: Owner | Action | Due
+  **Open questions** — bullets

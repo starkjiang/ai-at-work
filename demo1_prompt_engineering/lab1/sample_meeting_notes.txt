@@ -1,0 +1,10 @@
+Supplier performance review — weekly sync (transcript excerpt)
+
+Priya: Q4 on-time is at 71% for Gulf Coast's main supplier, down from 84%. Three late shipments stopped a line.
+Marcus: Canada's target was set 20% above Q3 without a demand signal. I'd like to re-baseline it on trailing four quarters.
+Dana: Agreed. Can we ship the supplier scorecard to regional leads Friday?
+Priya: Yes. I'll pull return root-cause codes for Southwest and Gulf Coast by Wednesday.
+Marcus: I'll take the Canada re-baseline, done Thursday.
+Dana: I'll draft the email to the Gulf Coast supplier for Friday.
+Priya: One more — should we freeze new-vendor onboarding in Gulf Coast until the returns review is done?
+Dana: Yes, let's freeze it. Escalating to procurement leadership is still an open question.

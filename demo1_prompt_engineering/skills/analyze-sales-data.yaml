@@ -1,0 +1,24 @@
+# A "skill" = a named, reusable prompt that encodes task, context, constraints,
+# and output format. Placeholders in {braces} are filled at run time.
+name: analyze-sales-data
+description: Turn a regional sales CSV into an exec-ready summary with a chart suggestion.
+inputs:
+  file: Path to a CSV with columns region, actual_usd, target_usd, units, returns
+  goal: "What the reader wants to know (default: which regions are off target and why)"
+mock_key: skill_analyze
+system: You are a senior business analyst writing for executives. Be concise and cite numbers.
+prompt: |
+  Task: Analyze the sales data below and answer this question: {goal}
+
+  Context (CSV contents):
+  {file_contents}
+
+  Constraints:
+  - Use only the numbers in the data; do not invent causes you cannot support.
+  - Treat gap % as (actual - target) / target.
+  - Do not include confidential figures beyond what is in the file.
+
+  Output format:
+  - "Key trends": 3 bullets max
+  - "Anomalies": bullets, or "None found"
+  - "Suggested chart": one line naming the chart type and axes

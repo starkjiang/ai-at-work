@@ -1,0 +1,483 @@
+supplier_id,supplier_name,category,region,month,shipments,late_shipments,on_time_pct,defects,spend_usd
+SUP-107,Summit Components,Rubber & Seals,Southeast,2026-12,33,3,90.9,1,171823.17
+SUP-133,Juniper Bearings,Electronics,Gulf Coast,2026-10,25,3,88.0,1,180641.49
+SUP-121,Vantage Steelworks,Fasteners,Northeast,2026-10,37,4,89.2,2,294384.58
+SUP-108,Riverbend Rubber,Fasteners,Canada,2026-03,8,2,75.0,0,32951.94
+SUP-124,Zenith Fasteners,Castings,Southwest,2026-10,28,5,82.1,1,208251.88
+SUP-129,Ember Forge,Steel,Mexico,2026-10,38,4,89.5,1,161817.76
+SUP-127,Crescent Components,Fasteners,Southwest,2026-07,44,2,95.5,2,305772.98
+SUP-130,Falcon Circuits,Castings,Northeast,2026-02,10,1,90.0,0,67206.65
+SUP-135,Lantern Plastics,Rubber & Seals,Northeast,2026-10,10,1,90.0,0,20318.96
+SUP-109,Ironwood Supply,Fasteners,West,2026-06,38,4,89.5,0,78642.45
+SUP-129,Ember Forge,Steel,Mexico,2026-04,24,3,87.5,1,138791.15
+SUP-108,Riverbend Rubber,Fasteners,Canada,2026-05,40,13,67.5,1,278696.51
+SUP-120,Trident Hydraulics,Hydraulics,West,2026-04,20,1,95.0,1,39845.99
+SUP-123,Yellowstone Castings,Hydraulics,Southwest,2026-01,28,4,85.7,1,150881.06
+SUP-139,Quarry Castings,Fasteners,Southeast,2026-03,52,8,84.6,0,115127.31
+SUP-117,Oakridge Bearings,Steel,Gulf Coast,2026-06,34,1,97.1,1,99704.69
+SUP-134,Kestrel Tooling,Fasteners,Mexico,2026-09,14,1,92.9,0,62778.16
+SUP-124,Zenith Fasteners,Castings,Southwest,2026-06,54,9,83.3,2,169656.73
+SUP-118,Redstone Tooling,Hydraulics,West,2026-11,29,3,89.7,1,168205.82
+SUP-100,Northwind Metals,Fasteners,Mexico,2026-11,22,3,86.4,1,44312.7
+SUP-134,Kestrel Tooling,Fasteners,Mexico,2026-03,47,2,95.7,0,279792.97
+SUP-114,Granite Machining,Fasteners,Southeast,2026-02,13,2,84.6,0,76561.8
+SUP-121,Vantage Steelworks,Fasteners,Northeast,2026-04,17,2,88.2,1,45077.02
+SUP-118,Redstone Tooling,Hydraulics,West,2026-01,51,3,94.1,0,395226.96
+SUP-110,Keystone Circuits,Fasteners,Southeast,2026-01,33,4,87.9,2,203117.65
+SUP-130,Falcon Circuits,Castings,Northeast,2026-09,53,3,94.3,1,246601.99
+SUP-131,Glacier Rubber,Steel,Southwest,2026-10,25,3,88.0,1,67539.58
+SUP-118,Redstone Tooling,Hydraulics,West,2026-07,8,0,100.0,0,55397.34
+SUP-113,Copperline Inc,Rubber & Seals,West,2026-09,12,2,83.3,1,60247.55
+SUP-122,Whitecap Electronics,Hydraulics,Gulf Coast,2026-04,11,1,90.9,0,28145.55
+SUP-116,Pinecrest Alloys,Fasteners,Northeast,2026-07,9,1,88.9,0,75122.31
+SUP-102,Lakeshore Electronics,Castings,Gulf Coast,2026-09,60,4,93.3,3,320111.79
+SUP-125,Aurora Seals,Electronics,Canada,2026-06,35,7,80.0,1,245230.89
+SUP-101,Prairie Hydraulics,Hydraulics,Canada,2026-06,8,1,87.5,0,60308.44
+SUP-120,Trident Hydraulics,Hydraulics,West,2026-01,57,7,87.7,2,225098.38
+SUP-101,Prairie Hydraulics,Hydraulics,Canada,2026-10,59,1,98.3,2,530109.5
+SUP-109,Ironwood Supply,Fasteners,West,2026-12,31,1,96.8,0,212269.92
+SUP-132,Horizon Alloys,Castings,Southeast,2026-03,10,0,100.0,0,43665.35
+SUP-139,Quarry Castings,Fasteners,Southeast,2026-07,49,9,81.6,2,365618.34
+SUP-129,Ember Forge,Steel,Mexico,2026-11,53,7,86.8,3,389794.06
+SUP-112,Meridian Parts,Hydraulics,West,2026-12,54,1,98.1,0,284253.18
+SUP-102,Lakeshore Electronics,Castings,Gulf Coast,2026-12,12,1,91.7,0,100859.92
+SUP-100,Northwind Metals,Fasteners,Mexico,2026-02,47,6,87.2,2,116451.38
+SUP-119,Silverline Plastics,Castings,Gulf Coast,2026-01,54,1,98.1,2,270937.81
+SUP-135,Lantern Plastics,Rubber & Seals,Northeast,2026-12,28,5,82.1,0,144886.64
+SUP-130,Falcon Circuits,Castings,Northeast,2026-12,34,1,97.1,1,244546.94
+SUP-116,Pinecrest Alloys,Fasteners,Northeast,2026-09,46,8,82.6,2,279793.14
+SUP-128,Driftwood Supply,Hydraulics,Mexico,2026-12,39,1,97.4,0,177846.38
+SUP-132,Horizon Alloys,Castings,Southeast,2026-02,51,3,94.1,3,109683.04
+SUP-115,Sable Logistics,Rubber & Seals,Southeast,2026-02,59,4,93.2,0,325244.42
+SUP-108,Riverbend Rubber,Fasteners,Canada,2026-08,48,15,68.8,2,161859.6
+SUP-137,Nimbus Steel,Hydraulics,West,2026-01,9,2,77.8,0,56185.2
+SUP-101,Prairie Hydraulics,Hydraulics,Canada,2026-01,8,0,100.0,0,67797.63
+SUP-130,Falcon Circuits,Castings,Northeast,2026-11,39,2,94.9,2,152664.77
+SUP-125,Aurora Seals,Electronics,Canada,2026-09,35,6,82.9,0,142217.47
+SUP-101,Prairie Hydraulics,Hydraulics,Canada,2026-11,46,1,97.8,2,116030.21
+SUP-107,Summit Components,Rubber & Seals,Southeast,2026-03,43,7,83.7,1,303049.86
+SUP-128,Driftwood Supply,Hydraulics,Mexico,2026-08,8,1,87.5,0,70594.63
+SUP-111,Harbor Forge,Fasteners,Northeast,2026-11,31,10,67.7,1,163659.75
+SUP-129,Ember Forge,Steel,Mexico,2026-08,9,2,77.8,0,37165.59
+SUP-112,Meridian Parts,Hydraulics,West,2026-09,16,1,93.8,1,81279.76
+SUP-126,Beacon Metals,Hydraulics,Mexico,2026-11,55,11,80.0,1,374094.61
+SUP-135,Lantern Plastics,Rubber & Seals,Northeast,2026-07,15,3,80.0,0,106776.9
+SUP-135,Lantern Plastics,Rubber & Seals,Northeast,2026-06,36,4,88.9,2,227739.0
+SUP-111,Harbor Forge,Fasteners,Northeast,2026-03,33,9,72.7,1,240286.13
+SUP-104,Bluff Fasteners,Hydraulics,Northeast,2026-05,15,0,100.0,0,93366.35
+SUP-138,Orchard Electronics,Electronics,Canada,2026-07,24,5,79.2,1,91293.94
+SUP-124,Zenith Fasteners,Castings,Southwest,2026-12,42,8,81.0,0,311367.43
+SUP-132,Horizon Alloys,Castings,Southeast,2026-11,17,0,100.0,0,32956.04
+SUP-133,Juniper Bearings,Electronics,Gulf Coast,2026-05,43,4,90.7,1,95246.65
+SUP-101,Prairie Hydraulics,Hydraulics,Canada,2026-07,36,1,97.2,1,320184.94
+SUP-126,Beacon Metals,Hydraulics,Mexico,2026-08,43,8,81.4,2,206918.12
+SUP-133,Juniper Bearings,Electronics,Gulf Coast,2026-04,20,3,85.0,1,94833.03
+SUP-113,Copperline Inc,Rubber & Seals,West,2026-12,17,1,94.1,1,151675.7
+SUP-138,Orchard Electronics,Electronics,Canada,2026-09,14,3,78.6,0,46290.91
+SUP-101,Prairie Hydraulics,Hydraulics,Canada,2026-04,29,1,96.6,0,121643.88
+SUP-138,Orchard Electronics,Electronics,Canada,2026-03,55,8,85.5,1,186270.79
+SUP-101,Prairie Hydraulics,Hydraulics,Canada,2026-02,11,1,90.9,0,97444.43
+SUP-100,Northwind Metals,Fasteners,Mexico,2026-01,19,3,84.2,1,99284.41
+SUP-110,Keystone Circuits,Fasteners,Southeast,2026-08,57,3,94.7,1,177107.93
+SUP-110,Keystone Circuits,Fasteners,Southeast,2026-03,53,0,100.0,3,442175.54
+SUP-120,Trident Hydraulics,Hydraulics,West,2026-07,15,1,93.3,0,105816.43
+SUP-136,Mesa Hydraulics,Electronics,Gulf Coast,2026-05,10,0,100.0,0,36051.17
+SUP-124,Zenith Fasteners,Castings,Southwest,2026-11,48,11,77.1,2,266292.24
+SUP-100,Northwind Metals,Fasteners,Mexico,2026-10,43,5,88.4,3,337530.73
+SUP-108,Riverbend Rubber,Fasteners,Canada,2026-02,16,4,75.0,1,141382.69
+SUP-107,Summit Components,Rubber & Seals,Southeast,2026-09,41,3,92.7,2,234387.84
+SUP-127,Crescent Components,Fasteners,Southwest,2026-02,43,2,95.3,2,226066.25
+SUP-139,Quarry Castings,Fasteners,Southeast,2026-11,42,6,85.7,1,370260.66
+SUP-131,Glacier Rubber,Steel,Southwest,2026-01,19,2,89.5,1,135092.51
+SUP-108,Riverbend Rubber,Fasteners,Canada,2026-11,20,7,65.0,0,179762.95
+SUP-112,Meridian Parts,Hydraulics,West,2026-05,41,2,95.1,0,312961.72
+SUP-114,Granite Machining,Fasteners,Southeast,2026-05,56,9,83.9,2,214871.4
+SUP-135,Lantern Plastics,Rubber & Seals,Northeast,2026-09,22,4,81.8,0,125321.08
+SUP-138,Orchard Electronics,Electronics,Canada,2026-02,13,2,84.6,1,65981.34
+SUP-122,Whitecap Electronics,Hydraulics,Gulf Coast,2026-12,36,0,100.0,2,167768.43
+SUP-105,Delta Seals,Castings,Northeast,2026-02,34,13,61.8,1,188489.96
+SUP-125,Aurora Seals,Electronics,Canada,2026-05,46,7,84.8,0,247109.81
+SUP-128,Driftwood Supply,Hydraulics,Mexico,2026-05,16,2,87.5,0,128559.92
+SUP-118,Redstone Tooling,Hydraulics,West,2026-09,59,4,93.2,3,489171.28
+SUP-126,Beacon Metals,Hydraulics,Mexico,2026-10,47,3,93.6,1,138882.91
+SUP-128,Driftwood Supply,Hydraulics,Mexico,2026-03,28,4,85.7,1,184700.76
+SUP-131,Glacier Rubber,Steel,Southwest,2026-09,53,8,84.9,0,377878.9
+SUP-100,Northwind Metals,Fasteners,Mexico,2026-07,37,4,89.2,1,224031.6
+SUP-125,Aurora Seals,Electronics,Canada,2026-10,47,8,83.0,2,348791.47
+SUP-115,Sable Logistics,Rubber & Seals,,2026-10,39,2,94.9,1,296182.7
+SUP-106,Tallgrass Steel,Fasteners,Southeast,2026-10,43,5,88.4,1,162619.5
+SUP-128,Driftwood Supply,Hydraulics,Mexico,2026-07,9,1,88.9,0,47486.83
+SUP-126,Beacon Metals,Hydraulics,Mexico,2026-12,45,7,84.4,2,138438.55
+SUP-135,Lantern Plastics,Rubber & Seals,Northeast,2026-01,22,2,90.9,1,163217.86
+SUP-107,Summit Components,Rubber & Seals,Southeast,2026-01,51,7,86.3,2,439078.44
+SUP-129,Ember Forge,Steel,Mexico,2026-05,33,5,84.8,0,275541.94
+SUP-105,Delta Seals,Castings,Northeast,2026-09,48,22,54.2,2,417644.0
+SUP-123,Yellowstone Castings,Hydraulics,Southwest,2026-08,34,6,82.4,1,94218.58
+SUP-137,Nimbus Steel,Hydraulics,West,2026-07,16,3,81.2,0,58589.76
+SUP-137,Nimbus Steel,Hydraulics,West,2026-05,25,5,80.0,1,82544.42
+SUP-139,Quarry Castings,Fasteners,Southeast,2026-09,35,9,74.3,1,66981.7
+SUP-122,Whitecap Electronics,Hydraulics,Gulf Coast,2026-10,42,1,97.6,1,212643.42
+SUP-114,Granite Machining,Fasteners,Southeast,2026-12,58,7,87.9,1,339844.84
+SUP-121,Vantage Steelworks,Fasteners,Northeast,2026-07,33,3,90.9,2,201982.17
+SUP-127,Crescent Components,Fasteners,Southwest,2026-03,56,5,91.1,1,281074.78
+SUP-110,Keystone Circuits,Fasteners,Southeast,2026-12,29,2,93.1,0,137000.22
+SUP-130,Falcon Circuits,Castings,Northeast,2026-08,58,6,89.7,1,249169.44
+SUP-126,Beacon Metals,Hydraulics,Mexico,2026-06,12,1,91.7,1,80339.39
+SUP-101,Prairie Hydraulics,Hydraulics,Canada,2026-09,21,0,100.0,0,168487.29
+SUP-129,Ember Forge,Steel,Mexico,2026-06,33,5,84.8,1,149016.93
+SUP-132,Horizon Alloys,Castings,Southeast,2026-05,42,1,97.6,2,127379.83
+SUP-128,Driftwood Supply,Hydraulics,Mexico,2026-02,35,2,94.3,1,237891.82
+SUP-129,Ember Forge,Steel,Mexico,2026-07,54,7,87.0,1,195712.45
+SUP-106,Tallgrass Steel,Fasteners,Southeast,2026-01,22,1,95.5,0,187324.45
+SUP-100,Northwind Metals,Fasteners,Mexico,2026-08,20,2,90.0,1,128202.01
+SUP-105,Delta Seals,Castings,Northeast,2026-10,51,25,51.0,1,394313.24
+SUP-101,Prairie Hydraulics,Hydraulics,Canada,2026-08,57,0,100.0,0,366780.69
+SUP-117,Oakridge Bearings,Steel,Gulf Coast,2026-03,41,3,92.7,2,306322.63
+SUP-128,Driftwood Supply,Hydraulics,Mexico,2026-06,22,2,90.9,0,98281.42
+SUP-102,Lakeshore Electronics,Castings,Gulf Coast,2026-10,41,4,90.2,0,286448.3
+SUP-111,Harbor Forge,Fasteners,Northeast,2026-08,10,3,70.0,0,85579.44
+SUP-137,Nimbus Steel,Hydraulics,West,2026-03,54,8,85.2,3,314916.18
+SUP-106,Tallgrass Steel,Fasteners,Southeast,2026-04,40,1,97.5,2,343946.31
+SUP-105,Delta Seals,Castings,Northeast,2026-05,30,13,56.7,1,224966.92
+SUP-111,Harbor Forge,Fasteners,Northeast,2026-06,41,7,82.9,1,367555.04
+SUP-103,Cedar Castings,Hydraulics,Midwest,2026-09,16,2,87.5,1,134208.3
+SUP-137,Nimbus Steel,Hydraulics,West,2026-06,21,5,76.2,0,57158.05
+SUP-119,Silverline Plastics,Castings,Gulf Coast,2026-07,49,5,89.8,1,140405.08
+SUP-124,Zenith Fasteners,Castings,Southwest,2026-07,10,1,90.0,0,83981.51
+SUP-127,Crescent Components,Fasteners,Southwest,2026-12,41,1,97.6,2,163020.66
+SUP-105,Delta Seals,Castings,Northeast,2026-08,11,5,54.5,1,28932.14
+SUP-106,Tallgrass Steel,Fasteners,Southeast,2026-03,8,1,87.5,0,47163.69
+SUP-127,Crescent Components,Fasteners,Southwest,2026-05,12,0,100.0,0,45489.18
+SUP-107,Summit Components,Rubber & Seals,Southeast,2026-10,44,7,84.1,0,108732.74
+SUP-124,Zenith Fasteners,Castings,Southwest,2026-04,42,8,81.0,1,318494.07
+SUP-127,Crescent Components,Fasteners,Southwest,2026-10,15,2,86.7,0,61784.98
+SUP-126,Beacon Metals,Hydraulics,Mexico,2026-04,10,1,90.0,0,47509.65
+SUP-131,Glacier Rubber,Steel,Southwest,2026-11,22,3,86.4,1,193852.02
+SUP-104,Bluff Fasteners,Hydraulics,Northeast,2026-01,24,2,91.7,1,169034.18
+SUP-137,Nimbus Steel,Hydraulics,West,2026-11,31,4,87.1,2,147086.97
+SUP-115,Sable Logistics,Rubber & Seals,Southeast,2026-06,13,1,92.3,0,84571.2
+SUP-119,Silverline Plastics,Castings,Gulf Coast,2026-10,58,4,93.1,3,380111.81
+SUP-113,Copperline Inc,Rubber & Seals,West,2026-01,25,3,88.0,1,175513.59
+SUP-132,Horizon Alloys,Castings,Southeast,2026-06,12,0,100.0,0,90761.32
+SUP-119,Silverline Plastics,Castings,Gulf Coast,2026-12,36,3,91.7,0,162677.13
+SUP-104,Bluff Fasteners,Hydraulics,Northeast,2026-08,29,1,96.6,1,144475.5
+SUP-103,Cedar Castings,Hydraulics,Midwest,2026-04,45,4,91.1,3,272119.7
+SUP-122,Whitecap Electronics,Hydraulics,Gulf Coast,2026-02,56,0,100.0,3,456663.17
+SUP-131,Glacier Rubber,Steel,Southwest,2026-02,12,1,91.7,1,92260.86
+SUP-106,Tallgrass Steel,Fasteners,Southeast,2026-06,59,5,91.5,2,411062.8
+SUP-116,Pinecrest Alloys,Fasteners,Northeast,2026-09,46,8,82.6,2,279793.14
+SUP-130,Falcon Circuits,Castings,Northeast,2026-04,20,1,95.0,0,73173.92
+SUP-114,Granite Machining,Fasteners,Southeast,2026-10,54,9,83.3,3,193741.07
+SUP-132,Horizon Alloys,Castings,Southeast,2026-12,44,2,95.5,2,165931.52
+SUP-107,Summit Components,Rubber & Seals,Southeast,2026-02,39,8,79.5,1,263688.92
+SUP-136,Mesa Hydraulics,Electronics,Gulf Coast,2026-06,59,1,98.3,1,194314.96
+SUP-111,Harbor Forge,Fasteners,Northeast,2026-10,35,7,80.0,2,169017.37
+SUP-136,Mesa Hydraulics,Electronics,Gulf Coast,2026-01,33,1,97.0,0,289429.47
+SUP-112,Meridian Parts,Hydraulics,West,2026-02,51,3,94.1,1,421377.46
+SUP-107,Summit Components,Rubber & Seals,Southeast,2026-07,44,6,86.4,1,209431.26
+SUP-100,Northwind Metals,Fasteners,Mexico,2026-09,37,7,81.1,1,174965.86
+SUP-124,Zenith Fasteners,Castings,Southwest,2026-02,13,3,76.9,0,30537.45
+SUP-126,Beacon Metals,Hydraulics,Mexico,2026-01,52,5,90.4,1,456968.73
+SUP-136,Mesa Hydraulics,Electronics,Gulf Coast,2026-02,56,8,85.7,3,298803.75
+SUP-114,Granite Machining,Fasteners,Southeast,2026-06,17,3,82.4,0,111049.01
+SUP-129,Ember Forge,Steel,Mexico,2026-09,60,10,83.3,2,188353.8
+SUP-116,Pinecrest Alloys,Fasteners,Northeast,2026-03,48,4,91.7,1,144341.72
+SUP-127,Crescent Components,Fasteners,Southwest,2026-04,48,1,97.9,2,384557.61
+SUP-119,Silverline Plastics,Castings,Gulf Coast,2026-09,33,2,93.9,1,134886.18
+SUP-102,Lakeshore Electronics,Castings,Gulf Coast,2026-07,34,1,97.1,0,87894.77
+SUP-110,Keystone Circuits,Fasteners,Southeast,2026-05,56,4,92.9,1,468235.77
+SUP-130,Falcon Circuits,Castings,Northeast,2026-07,43,6,86.0,2,291366.56
+SUP-109,Ironwood Supply,Fasteners,West,2026-09,14,0,100.0,0,38752.59
+SUP-111,Harbor Forge,Fasteners,Northeast,2026-04,49,14,71.4,1,122932.84
+SUP-131,Glacier Rubber,Steel,Southwest,2026-04,10,1,90.0,0,80372.92
+SUP-103,Cedar Castings,Hydraulics,Midwest,2026-11,58,5,91.4,0,313168.96
+SUP-111,Harbor Forge,Fasteners,Northeast,2026-12,25,7,72.0,1,96035.13
+SUP-132,Horizon Alloys,Castings,Southeast,2026-09,59,3,94.9,3,294065.94
+SUP-122,Whitecap Electronics,Hydraulics,Gulf Coast,2026-09,41,1,97.6,2,110344.57
+SUP-109,Ironwood Supply,Fasteners,West,2026-03,51,2,96.1,1,393261.67
+SUP-104,Bluff Fasteners,Hydraulics,Northeast,2026-07,20,2,90.0,1,144543.07
+SUP-131,Glacier Rubber,Steel,Southwest,2026-08,21,1,95.2,1,163075.27
+SUP-105,Delta Seals,Castings,Northeast,2026-03,47,19,59.6,1,109871.45
+SUP-119,Silverline Plastics,Castings,Gulf Coast,2026-05,18,1,94.4,1,88622.4
+SUP-127,Crescent Components,Fasteners,Southwest,2026-01,34,2,94.1,1,106147.59
+SUP-139,Quarry Castings,Fasteners,Southeast,2026-05,45,6,86.7,1,200849.89
+SUP-105,Delta Seals,Castings,Northeast,2026-06,9,4,55.6,0,42456.25
+SUP-124,Zenith Fasteners,Castings,Southwest,2026-09,43,9,79.1,2,359039.32
+SUP-134,Kestrel Tooling,Fasteners,Mexico,2026-06,27,1,96.3,0,224560.6
+SUP-108,Riverbend Rubber,Fasteners,Canada,2026-10,55,18,67.3,2,236647.94
+SUP-115,Sable Logistics,Rubber & Seals,Southeast,2026-07,35,0,100.0,1,118553.36
+SUP-119,Silverline Plastics,Castings,Gulf Coast,2026-06,57,3,94.7,0,480420.61
+SUP-139,Quarry Castings,Fasteners,Southeast,2026-08,24,5,79.2,1,210796.82
+SUP-138,Orchard Electronics,Electronics,Canada,2026-12,9,2,77.8,0,26289.65
+SUP-123,Yellowstone Castings,Hydraulics,Southwest,2026-02,57,5,91.2,3,296571.76
+SUP-138,Orchard Electronics,Electronics,Canada,2026-11,30,6,80.0,2,230188.5
+SUP-114,Granite Machining,Fasteners,Southeast,2026-11,31,5,83.9,1,186329.3
+SUP-134,Kestrel Tooling,Fasteners,Mexico,2026-05,31,3,90.3,1,156194.31
+SUP-130,Falcon Circuits,Castings,Northeast,2026-10,18,2,88.9,1,139240.84
+SUP-108,Riverbend Rubber,Fasteners,Canada,2026-06,52,15,71.2,2,257128.94
+SUP-139,Quarry Castings,Fasteners,Southeast,2026-01,49,11,77.6,2,430559.55
+SUP-120,Trident Hydraulics,Hydraulics,West,2026-09,24,4,83.3,0,172060.51
+SUP-103,Cedar Castings,Hydraulics,Midwest,2026-02,41,5,87.8,1,112641.98
+SUP-139,Quarry Castings,Fasteners,Southeast,2026-04,37,9,75.7,1,277121.98
+SUP-120,Trident Hydraulics,Hydraulics,West,2026-03,41,3,92.7,2,282454.02
+SUP-107,Summit Components,Rubber & Seals,Southeast,2026-08,15,3,80.0,0,92364.6
+SUP-109,Ironwood Supply,Fasteners,West,2026-11,40,4,90.0,1,132504.52
+SUP-117,Oakridge Bearings,Steel,Gulf Coast,2026-12,38,2,94.7,2,91070.2
+SUP-135,Lantern Plastics,Rubber & Seals,Northeast,2026-05,21,4,81.0,1,89901.79
+SUP-112,Meridian Parts,Hydraulics,West,2026-04,22,2,90.9,1,115253.18
+SUP-136,Mesa Hydraulics,Electronics,Gulf Coast,2026-09,12,0,100.0,1,95476.19
+SUP-130,Falcon Circuits,Castings,Northeast,2026-03,38,4,89.5,2,109400.68
+SUP-114,Granite Machining,Fasteners,Southeast,2026-08,51,3,94.1,3,252630.92
+SUP-133,Juniper Bearings,Electronics,Gulf Coast,2026-11,8,1,87.5,0,18069.38
+SUP-132,Horizon Alloys,Castings,Southeast,2026-08,17,1,94.1,1,78256.13
+SUP-112,Meridian Parts,Hydraulics,West,2026-08,21,0,100.0,1,91732.6
+SUP-108,Riverbend Rubber,Fasteners,Canada,2026-01,34,7,79.4,1,287706.26
+SUP-107,Summit Components,Rubber & Seals,Southeast,2026-06,47,9,80.9,1,372500.99
+SUP-113,Copperline Inc,Rubber & Seals,West,2026-11,24,2,91.7,1,69238.39
+SUP-103,Cedar Castings,Hydraulics,Midwest,2026-06,9,2,77.8,0,21049.22
+SUP-117,Oakridge Bearings,Steel,Gulf Coast,2026-07,24,0,100.0,1,183169.41
+SUP-137,Nimbus Steel,Hydraulics,West,2026-02,39,5,87.2,0,347591.83
+SUP-128,Driftwood Supply,Hydraulics,Mexico,2026-11,13,1,92.3,1,34614.21
+SUP-104,Bluff Fasteners,Hydraulics,Northeast,2026-04,9,1,88.9,0,21885.05
+SUP-106,Tallgrass Steel,Fasteners,Southeast,2026-11,12,1,91.7,0,24633.01
+SUP-112,Meridian Parts,Hydraulics,West,2026-06,37,3,91.9,0,322331.43
+SUP-116,Pinecrest Alloys,Fasteners,Northeast,2026-06,49,2,95.9,0,412680.76
+SUP-123,Yellowstone Castings,Hydraulics,Southwest,2026-12,31,2,93.5,1,172847.92
+SUP-118,Redstone Tooling,Hydraulics,West,2026-03,27,4,85.2,1,127421.69
+SUP-130,Falcon Circuits,Castings,Northeast,2026-01,36,2,94.4,1,300571.62
+SUP-121,Vantage Steelworks,Fasteners,Northeast,2026-12,29,2,93.1,1,142448.5
+SUP-102,Lakeshore Electronics,Castings,Gulf Coast,2026-03,44,1,97.7,0,201515.54
+SUP-110,Keystone Circuits,Fasteners,Southeast,2026-04,33,3,90.9,1,104769.21
+SUP-134,Kestrel Tooling,Fasteners,Mexico,2026-04,22,2,90.9,0,154333.12
+SUP-110,Keystone Circuits,Fasteners,Southeast,2026-11,25,1,96.0,1,164896.84
+SUP-108,Riverbend Rubber,Fasteners,Canada,2026-04,30,8,73.3,0,161745.7
+SUP-135,Lantern Plastics,Rubber & Seals,Northeast,2026-08,55,8,85.5,1,362519.22
+SUP-134,Kestrel Tooling,Fasteners,Mexico,2026-08,11,0,100.0,0,63062.09
+SUP-138,Orchard Electronics,Electronics,Canada,2026-05,25,5,80.0,0,170083.35
+SUP-134,Kestrel Tooling,Fasteners,Mexico,2026-11,28,3,89.3,2,219716.02
+SUP-121,Vantage Steelworks,Fasteners,Northeast,2026-02,55,5,90.9,3,342627.19
+SUP-108,Riverbend Rubber,Fasteners,Canada,2026-07,41,14,65.9,2,232671.8
+SUP-123,Yellowstone Castings,Hydraulics,Southwest,2026-09,36,6,83.3,1,108706.79
+SUP-118,Redstone Tooling,Hydraulics,West,2026-06,51,5,90.2,1,446848.73
+SUP-125,Aurora Seals,Electronics,Canada,2026-11,49,8,83.7,2,148740.44
+SUP-129,Ember Forge,Steel,Mexico,2026-02,30,4,86.7,1,105798.66
+SUP-120,Trident Hydraulics,Hydraulics,West,2026-02,22,3,86.4,0,118865.83
+SUP-111,Harbor Forge,Fasteners,Northeast,2026-09,39,13,66.7,1,237714.68
+SUP-132,Horizon Alloys,Castings,Southeast,2026-04,42,2,95.2,3,111932.01
+SUP-139,Quarry Castings,Fasteners,Southeast,2026-12,57,10,82.5,3,226359.46
+SUP-138,Orchard Electronics,Electronics,Canada,2026-01,15,3,80.0,1,57940.88
+SUP-130,Falcon Circuits,Castings,Northeast,2026-06,43,2,95.3,1,278692.02
+SUP-117,Oakridge Bearings,Steel,Gulf Coast,2026-09,17,1,94.1,1,52423.84
+SUP-135,Lantern Plastics,Rubber & Seals,Northeast,2026-03,19,4,78.9,1,106031.98
+SUP-124,Zenith Fasteners,Castings,Southwest,2026-08,45,11,75.6,1,382081.45
+SUP-104,Bluff Fasteners,Hydraulics,Northeast,2026-11,45,3,93.3,2,149005.18
+SUP-113,Copperline Inc,Rubber & Seals,West,2026-03,23,3,87.0,1,149526.57
+SUP-126,Beacon Metals,Hydraulics,Mexico,2026-03,55,5,90.9,2,393996.7
+SUP-123,Yellowstone Castings,Hydraulics,Southwest,2026-06,20,4,80.0,1,176582.98
+SUP-133,Juniper Bearings,Electronics,Gulf Coast,2026-09,18,1,94.4,1,119858.64
+SUP-128,Driftwood Supply,Hydraulics,Mexico,2026-09,21,2,90.5,1,91230.06
+SUP-131,Glacier Rubber,Steel,Southwest,2026-03,36,3,91.7,1,240862.91
+SUP-103,Cedar Castings,Hydraulics,Midwest,2026-01,11,2,81.8,0,42131.38
+SUP-113,Copperline Inc,Rubber & Seals,West,2026-08,38,3,92.1,1,126029.09
+SUP-118,Redstone Tooling,Hydraulics,West,2026-12,13,1,92.3,0,42114.82
+SUP-127,Crescent Components,Fasteners,Southwest,2026-08,25,2,92.0,0,55304.35
+SUP-118,Redstone Tooling,Hydraulics,West,2026-08,38,4,89.5,1,222742.11
+SUP-119,Silverline Plastics,Castings,Gulf Coast,2026-02,32,3,90.6,0,90045.5
+SUP-116,Pinecrest Alloys,Fasteners,Northeast,2026-02,15,2,86.7,0,72409.32
+SUP-105,Delta Seals,Castings,Northeast,2026-12,19,9,52.6,0,140710.27
+SUP-118,Redstone Tooling,Hydraulics,West,2026-10,17,1,94.1,0,76621.02
+SUP-125,Aurora Seals,Electronics,Canada,2026-01,24,5,79.2,1,179907.58
+SUP-136,Mesa Hydraulics,Electronics,Gulf Coast,2026-12,10,0,100.0,1,86778.64
+SUP-103,Cedar Castings,Hydraulics,Midwest,2026-03,29,6,79.3,1,196527.07
+SUP-114,Granite Machining,Fasteners,Southeast,2026-04,21,4,81.0,1,129082.31
+SUP-133,Juniper Bearings,Electronics,Gulf Coast,2026-07,26,3,88.5,1,232931.68
+SUP-120,Trident Hydraulics,Hydraulics,West,2026-06,52,9,82.7,1,127953.92
+SUP-100,Northwind Metals,Fasteners,Mexico,2026-03,59,7,88.1,3,375715.54
+SUP-123,Yellowstone Castings,Hydraulics,Southwest,2026-04,30,3,90.0,2,57463.9
+SUP-109,Ironwood Supply,Fasteners,West,2026-01,34,0,100.0,1,233744.58
+SUP-100,Northwind Metals,Fasteners,Mexico,2026-12,44,7,84.1,2,206046.66
+SUP-114,Granite Machining,Fasteners,Southeast,2026-07,28,5,82.1,1,165165.75
+SUP-133,Juniper Bearings,Electronics,Gulf Coast,2026-01,43,4,90.7,1,93260.97
+SUP-123,Yellowstone Castings,Hydraulics,Southwest,2026-07,60,9,85.0,1,496932.33
+SUP-103,Cedar Castings,Hydraulics,Midwest,2026-07,16,2,87.5,1,37470.29
+SUP-116,Pinecrest Alloys,Fasteners,Northeast,2026-11,27,6,77.8,1,231724.09
+SUP-102,Lakeshore Electronics,Castings,Gulf Coast,2026-01,21,2,90.5,1,74543.55
+SUP-120,Trident Hydraulics,Hydraulics,West,2026-12,44,5,88.6,1,131749.41
+SUP-102,Lakeshore Electronics,Castings,Gulf Coast,2026-06,43,4,90.7,1,371562.06
+SUP-112,Meridian Parts,Hydraulics,West,2026-01,10,0,100.0,0,47434.02
+SUP-126,Beacon Metals,Hydraulics,Mexico,2026-07,47,5,89.4,1,170285.92
+SUP-137,Nimbus Steel,Hydraulics,West,2026-04,35,4,88.6,1,268768.76
+SUP-106,Tallgrass Steel,Fasteners,Southeast,2026-05,21,3,85.7,0,168763.14
+SUP-113,Copperline Inc,Rubber & Seals,West,2026-07,43,2,95.3,1,381269.34
+SUP-129,Ember Forge,Steel,Mexico,2026-12,48,7,85.4,0,274012.34
+SUP-133,Juniper Bearings,Electronics,Gulf Coast,2026-06,43,5,88.4,2,333477.92
+SUP-110,Keystone Circuits,Fasteners,Southeast,2026-09,59,2,96.6,1,305363.4
+SUP-109,Ironwood Supply,Fasteners,West,2026-08,15,1,93.3,0,117743.14
+SUP-116,Pinecrest Alloys,Fasteners,Northeast,2026-12,43,4,90.7,1,158039.78
+SUP-131,Glacier Rubber,Steel,Southwest,2026-12,38,2,94.7,1,325858.87
+SUP-132,Horizon Alloys,Castings,Southeast,2026-10,14,1,92.9,0,115585.24
+SUP-124,Zenith Fasteners,Castings,Southwest,2026-05,56,8,85.7,1,173105.55
+SUP-112,Meridian Parts,Hydraulics,West,2026-03,54,4,92.6,3,125778.47
+SUP-139,Quarry Castings,Fasteners,Southeast,2026-06,17,4,76.5,1,42340.25
+SUP-117,Oakridge Bearings,Steel,Gulf Coast,2026-02,21,1,95.2,1,158974.35
+SUP-129,Ember Forge,Steel,Mexico,2026-03,35,4,88.6,2,183533.25
+SUP-118,Redstone Tooling,Hydraulics,West,2026-02,21,2,90.5,0,100268.21
+SUP-111,Harbor Forge,Fasteners,Northeast,2026-07,12,4,66.7,0,79352.29
+SUP-133,Juniper Bearings,Electronics,Gulf Coast,2026-08,36,4,88.9,1,308655.09
+SUP-110,Keystone Circuits,Fasteners,Southeast,2026-10,8,0,100.0,0,71457.36
+SUP-133,Juniper Bearings,Electronics,Gulf Coast,2026-12,31,3,90.3,0,173482.76
+SUP-103,Cedar Castings,Hydraulics,Midwest,2026-12,8,1,87.5,0,36422.41
+SUP-138,Orchard Electronics,Electronics,Canada,2026-06,51,7,86.3,2,97354.88
+SUP-114,Granite Machining,Fasteners,Southeast,2026-09,28,4,85.7,0,245502.41
+SUP-122,Whitecap Electronics,Hydraulics,Gulf Coast,2026-01,35,2,94.3,2,213575.45
+SUP-136,Mesa Hydraulics,Electronics,Gulf Coast,2026-07,39,0,100.0,1,250952.8
+SUP-121,Vantage Steelworks,Fasteners,Northeast,2026-03,18,2,88.9,0,93055.89
+SUP-107,Summit Components,Rubber & Seals,Southeast,2026-11,37,5,86.5,1,321508.86
+SUP-113,Copperline Inc,Rubber & Seals,West,2026-06,22,2,90.9,1,51082.87
+SUP-102,Lakeshore Electronics,Castings,Gulf Coast,2026-05,20,1,95.0,0,126572.73
+SUP-138,Orchard Electronics,Electronics,Canada,2026-04,48,10,79.2,0,231240.69
+SUP-125,Aurora Seals,Electronics,Canada,2026-12,24,5,79.2,0,129059.28
+SUP-108,Riverbend Rubber,Fasteners,Canada,2026-12,14,5,64.3,0,49326.23
+SUP-112,Meridian Parts,Hydraulics,West,2026-11,60,7,88.3,4,519538.32
+SUP-132,Horizon Alloys,Castings,Southeast,2026-01,48,2,95.8,2,220030.65
+SUP-125,Aurora Seals,Electronics,Canada,2026-07,15,2,86.7,1,88440.9
+SUP-115,Sable Logistics,Rubber & Seals,Southeast,2026-08,56,1,98.2,3,237149.43
+SUP-138,Orchard Electronics,Electronics,Canada,2026-10,58,12,79.3,1,260784.92
+SUP-115,Sable Logistics,Rubber & Seals,Southeast,2026-03,9,1,88.9,0,68319.87
+SUP-129,Ember Forge,Steel,Mexico,2026-01,33,5,84.8,0,241946.69
+SUP-100,Northwind Metals,Fasteners,Mexico,2026-04,46,5,89.1,3,402327.78
+SUP-137,Nimbus Steel,Hydraulics,West,2026-08,30,6,80.0,1,131228.28
+SUP-125,Aurora Seals,Electronics,Canada,2026-04,53,11,79.2,0,266501.67
+SUP-136,Mesa Hydraulics,Electronics,Gulf Coast,2026-11,59,0,100.0,1,148824.0
+SUP-115,Sable Logistics,Rubber & Seals,Southeast,2026-12,50,2,96.0,1,91392.56
+SUP-100,Northwind Metals,Fasteners,Mexico,2026-05,18,3,83.3,1,140188.53
+SUP-120,Trident Hydraulics,Hydraulics,West,2026-10,60,8,86.7,1,170916.17
+SUP-122,Whitecap Electronics,Hydraulics,Gulf Coast,2026-06,12,1,91.7,1,84740.89
+SUP-122,Whitecap Electronics,Hydraulics,Gulf Coast,2026-03,36,1,97.2,1,291094.77
+SUP-136,Mesa Hydraulics,Electronics,Gulf Coast,2026-03,49,1,98.0,2,138421.72
+SUP-120,Trident Hydraulics,Hydraulics,West,2026-08,23,3,87.0,1,131391.28
+SUP-115,Sable Logistics,Rubber & Seals,,2026-05,25,2,92.0,1,206832.93
+SUP-113,Copperline Inc,Rubber & Seals,,2026-05,35,3,91.4,0,72587.39
+SUP-101,Prairie Hydraulics,Hydraulics,Canada,2026-05,15,0,100.0,0,103357.73
+SUP-115,Sable Logistics,Rubber & Seals,Southeast,2026-11,10,0,100.0,0,77488.72
+SUP-104,Bluff Fasteners,Hydraulics,Northeast,2026-03,42,6,85.7,0,302463.56
+SUP-128,Driftwood Supply,Hydraulics,Mexico,2026-10,15,1,93.3,1,120784.5
+SUP-109,Ironwood Supply,Fasteners,West,2026-07,44,5,88.6,1,139256.14
+SUP-117,Oakridge Bearings,Steel,Gulf Coast,2026-01,38,5,86.8,2,177682.82
+SUP-113,Copperline Inc,Rubber & Seals,,2026-10,60,3,95.0,2,440100.44
+SUP-123,Yellowstone Castings,Hydraulics,Southwest,2026-05,43,8,81.4,1,273189.24
+SUP-116,Pinecrest Alloys,Fasteners,Northeast,2026-04,21,2,90.5,0,117795.59
+SUP-122,Whitecap Electronics,Hydraulics,Gulf Coast,2026-07,42,0,100.0,1,319109.91
+SUP-106,Tallgrass Steel,Fasteners,Southeast,2026-12,42,5,88.1,1,313862.75
+SUP-102,Lakeshore Electronics,Castings,Gulf Coast,2026-08,40,4,90.0,2,140661.27
+SUP-135,Lantern Plastics,Rubber & Seals,Northeast,2026-04,8,1,87.5,0,50960.24
+SUP-113,Copperline Inc,Rubber & Seals,West,2026-04,20,3,85.0,1,41689.14
+SUP-102,Lakeshore Electronics,Castings,Gulf Coast,2026-02,46,2,95.7,1,288855.83
+SUP-104,Bluff Fasteners,Hydraulics,Northeast,2026-12,16,2,87.5,0,125233.42
+SUP-119,Silverline Plastics,Castings,Gulf Coast,2026-03,53,1,98.1,1,169111.99
+SUP-114,Granite Machining,Fasteners,Southeast,2026-03,60,7,88.3,3,140866.26
+SUP-118,Redstone Tooling,Hydraulics,West,2026-05,51,4,92.2,0,336965.11
+SUP-127,Crescent Components,Fasteners,Southwest,2026-09,16,1,93.8,1,112141.88
+SUP-115,Sable Logistics,Rubber & Seals,Southeast,2026-04,12,1,91.7,0,47993.01
+SUP-116,Pinecrest Alloys,Fasteners,Northeast,2026-05,38,5,86.8,1,99812.76
+SUP-120,Trident Hydraulics,Hydraulics,West,2026-05,16,2,87.5,0,95211.26
+SUP-118,Redstone Tooling,Hydraulics,West,2026-04,43,3,93.0,1,222053.27
+SUP-103,Cedar Castings,Hydraulics,Midwest,2026-08,42,6,85.7,1,89046.2
+SUP-115,Sable Logistics,Rubber & Seals,Southeast,2026-09,59,5,91.5,3,391830.15
+SUP-109,Ironwood Supply,Fasteners,West,2026-05,51,3,94.1,3,386604.22
+SUP-111,Harbor Forge,Fasteners,Northeast,2026-01,21,6,71.4,1,152975.04
+SUP-125,Aurora Seals,Electronics,Canada,2026-08,42,7,83.3,1,293995.41
+SUP-131,Glacier Rubber,Steel,Southwest,2026-07,28,3,89.3,0,222975.44
+SUP-111,Harbor Forge,Fasteners,Northeast,2026-05,43,11,74.4,1,206096.77
+SUP-134,Kestrel Tooling,Fasteners,Mexico,2026-02,14,0,100.0,1,73794.04
+SUP-126,Beacon Metals,Hydraulics,Mexico,2026-09,27,2,92.6,1,239354.88
+SUP-116,Pinecrest Alloys,Fasteners,Northeast,2026-10,22,2,90.9,1,181292.13
+SUP-104,Bluff Fasteners,Hydraulics,Northeast,2026-02,32,3,90.6,2,217533.65
+SUP-121,Vantage Steelworks,Fasteners,Northeast,2026-05,16,2,87.5,0,94237.54
+SUP-139,Quarry Castings,Fasteners,Southeast,2026-10,31,5,83.9,2,255746.37
+SUP-137,Nimbus Steel,Hydraulics,West,2026-10,27,1,96.3,1,87517.12
+SUP-123,Yellowstone Castings,Hydraulics,Southwest,2026-11,40,6,85.0,2,299661.12
+SUP-127,Crescent Components,Fasteners,Southwest,2026-11,32,2,93.8,1,235172.43
+SUP-108,Riverbend Rubber,Fasteners,Canada,2026-09,45,16,64.4,2,156381.32
+SUP-120,Trident Hydraulics,Hydraulics,West,2026-11,51,5,90.2,3,180244.34
+SUP-114,Granite Machining,Fasteners,Southeast,2026-01,37,6,83.8,2,87514.43
+SUP-117,Oakridge Bearings,Steel,Gulf Coast,2026-11,25,1,96.0,1,140030.63
+SUP-128,Driftwood Supply,Hydraulics,Mexico,2026-01,16,1,93.8,0,64774.66
+SUP-104,Bluff Fasteners,Hydraulics,Northeast,2026-10,59,7,88.1,3,494561.17
+SUP-122,Whitecap Electronics,Hydraulics,Gulf Coast,2026-11,9,1,88.9,0,20258.7
+SUP-111,Harbor Forge,Fasteners,Northeast,2026-02,44,12,72.7,0,274157.59
+SUP-109,Ironwood Supply,Fasteners,West,2026-02,20,1,95.0,0,134670.95
+SUP-103,Cedar Castings,Hydraulics,Midwest,2026-05,30,4,86.7,1,261958.54
+SUP-134,Kestrel Tooling,Fasteners,Mexico,2026-10,19,1,94.7,0,35491.58
+SUP-117,Oakridge Bearings,Steel,Gulf Coast,2026-10,21,0,100.0,1,165742.84
+SUP-116,Pinecrest Alloys,Fasteners,Northeast,2026-08,10,2,80.0,0,32228.95
+SUP-101,Prairie Hydraulics,Hydraulics,Canada,2026-12,17,1,94.1,0,62213.17
+SUP-133,Juniper Bearings,Electronics,Gulf Coast,2026-02,12,1,91.7,0,87316.31
+SUP-132,Horizon Alloys,Castings,Southeast,2026-07,33,0,100.0,1,156385.02
+SUP-127,Crescent Components,Fasteners,Southwest,2026-06,25,0,100.0,1,138402.52
+SUP-123,Yellowstone Castings,Hydraulics,Southwest,2026-03,52,7,86.5,3,166796.91
+SUP-112,Meridian Parts,Hydraulics,West,2026-10,24,1,95.8,1,161050.69
+SUP-121,Vantage Steelworks,Fasteners,Northeast,2026-01,50,3,94.0,0,362197.94
+SUP-135,Lantern Plastics,Rubber & Seals,Northeast,2026-11,45,8,82.2,0,98690.78
+SUP-117,Oakridge Bearings,Steel,Gulf Coast,2026-04,11,0,100.0,0,38619.03
+SUP-101,Prairie Hydraulics,Hydraulics,Canada,2026-03,48,3,93.8,1,319648.61
+SUP-136,Mesa Hydraulics,Electronics,Gulf Coast,2026-10,57,6,89.5,3,501800.53
+SUP-122,Whitecap Electronics,Hydraulics,Gulf Coast,2026-08,22,1,95.5,1,106376.95
+SUP-139,Quarry Castings,Fasteners,Southeast,2026-02,9,2,77.8,1,41805.06
+SUP-106,Tallgrass Steel,Fasteners,Southeast,2026-09,40,4,90.0,0,198979.54
+SUP-116,Pinecrest Alloys,Fasteners,Northeast,2026-01,41,3,92.7,1,76795.79
+SUP-136,Mesa Hydraulics,Electronics,Gulf Coast,2026-08,12,0,100.0,0,59657.47
+SUP-131,Glacier Rubber,Steel,Southwest,2026-06,52,6,88.5,1,361651.46
+SUP-131,Glacier Rubber,Steel,Southwest,2026-05,24,2,91.7,1,170979.82
+SUP-104,Bluff Fasteners,Hydraulics,Northeast,2026-09,50,3,94.0,1,318302.33
+SUP-134,Kestrel Tooling,Fasteners,Mexico,2026-12,56,3,94.6,1,455809.92
+SUP-134,Kestrel Tooling,Fasteners,Mexico,2026-01,50,4,92.0,2,444938.87
+SUP-106,Tallgrass Steel,Fasteners,Southeast,2026-07,13,1,92.3,1,73659.14
+SUP-109,Ironwood Supply,Fasteners,West,2026-10,51,4,92.2,1,372605.36
+SUP-100,Northwind Metals,Fasteners,Mexico,2026-06,12,2,83.3,0,38033.99
+SUP-135,Lantern Plastics,Rubber & Seals,Northeast,2026-02,19,3,84.2,1,43769.14
+SUP-138,Orchard Electronics,Electronics,Canada,2026-08,14,2,85.7,1,110907.56
+SUP-105,Delta Seals,Castings,Northeast,2026-01,38,13,65.8,1,126972.39
+SUP-130,Falcon Circuits,Castings,Northeast,2026-05,42,3,92.9,2,76657.54
+SUP-126,Beacon Metals,Hydraulics,Mexico,2026-02,10,0,100.0,0,72389.21
+SUP-126,Beacon Metals,Hydraulics,Mexico,2026-05,43,4,90.7,1,208806.31
+SUP-117,Oakridge Bearings,Steel,Gulf Coast,2026-05,31,0,100.0,1,110830.68
+SUP-107,Summit Components,Rubber & Seals,Southeast,2026-05,50,7,86.0,1,394293.8
+SUP-122,Whitecap Electronics,Hydraulics,Gulf Coast,2026-05,50,0,100.0,1,174913.73
+SUP-101,Prairie Hydraulics,Hydraulics,Canada,2026-03,48,3,93.8,1,319648.61
+SUP-106,Tallgrass Steel,Fasteners,Southeast,2026-02,54,8,85.2,1,272355.54
+SUP-106,Tallgrass Steel,Fasteners,Southeast,2026-08,58,1,98.3,3,213762.41
+SUP-121,Vantage Steelworks,Fasteners,Northeast,2026-06,29,2,93.1,0,215894.37
+SUP-137,Nimbus Steel,Hydraulics,West,2026-09,52,6,88.5,1,362314.71
+SUP-134,Kestrel Tooling,Fasteners,Mexico,2026-07,29,2,93.1,0,89801.5
+SUP-137,Nimbus Steel,Hydraulics,West,2026-12,37,5,86.5,0,99521.52
+SUP-136,Mesa Hydraulics,Electronics,Gulf Coast,2026-04,15,0,100.0,1,82253.05
+SUP-105,Delta Seals,Castings,Northeast,2026-11,56,28,50.0,2,388753.73
+SUP-119,Silverline Plastics,Castings,Gulf Coast,2026-08,52,2,96.2,1,217680.1
+SUP-104,Bluff Fasteners,Hydraulics,Northeast,2026-06,39,3,92.3,1,73375.06
+SUP-123,Yellowstone Castings,Hydraulics,Southwest,2026-10,27,6,77.8,0,182959.15
+SUP-107,Summit Components,Rubber & Seals,Southeast,2026-04,48,10,79.2,0,264112.7
+SUP-119,Silverline Plastics,Castings,Gulf Coast,2026-04,10,0,100.0,1,60677.25
+SUP-125,Aurora Seals,Electronics,Canada,2026-02,23,5,78.3,0,131512.72
+SUP-109,Ironwood Supply,Fasteners,West,2026-04,31,2,93.5,0,168667.98
+SUP-102,Lakeshore Electronics,Castings,Gulf Coast,2026-04,48,1,97.9,0,400351.24
+SUP-119,Silverline Plastics,Castings,Gulf Coast,2026-11,29,2,93.1,0,116255.26
+SUP-117,Oakridge Bearings,Steel,Gulf Coast,2026-08,16,0,100.0,1,143207.29
+SUP-125,Aurora Seals,Electronics,Canada,2026-03,24,3,87.5,0,146331.92
+SUP-110,Keystone Circuits,Fasteners,Southeast,2026-07,29,1,96.6,2,197273.98
+SUP-110,Keystone Circuits,Fasteners,Southeast,2026-06,55,4,92.7,2,162374.63
+SUP-133,Juniper Bearings,Electronics,Gulf Coast,2026-03,29,4,86.2,1,260406.59
+SUP-115,Sable Logistics,Rubber & Seals,Southeast,2026-01,56,4,92.9,2,445420.11
+SUP-112,Meridian Parts,Hydraulics,West,2026-07,11,1,90.9,0,55890.54
+SUP-113,Copperline Inc,Rubber & Seals,West,2026-02,52,7,86.5,2,330632.88
+SUP-121,Vantage Steelworks,Fasteners,Northeast,2026-11,44,6,86.4,0,376655.11
+SUP-121,Vantage Steelworks,Fasteners,Northeast,2026-09,34,2,94.1,2,180121.21
+SUP-103,Cedar Castings,Hydraulics,Midwest,2026-10,30,6,80.0,0,156228.14
+SUP-128,Driftwood Supply,Hydraulics,Mexico,2026-04,17,2,88.2,1,132754.89
+SUP-105,Delta Seals,Castings,Northeast,2026-07,25,11,56.0,0,70357.41
+SUP-110,Keystone Circuits,Fasteners,Southeast,2026-02,14,0,100.0,0,26754.1
+SUP-124,Zenith Fasteners,Castings,Southwest,2026-03,10,2,80.0,0,60232.44
+SUP-102,Lakeshore Electronics,Castings,Gulf Coast,2026-11,43,1,97.7,2,268073.52
+SUP-105,Delta Seals,Castings,Northeast,2026-04,10,5,50.0,0,61743.93
+SUP-124,Zenith Fasteners,Castings,Southwest,2026-01,22,4,81.8,0,140964.94
+SUP-121,Vantage Steelworks,Fasteners,Northeast,2026-08,38,6,84.2,1,313736.5

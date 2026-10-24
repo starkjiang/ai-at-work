@@ -1,0 +1,17 @@
+# Copy this file, rename it to a verb-first name (e.g. summarize-incident.yaml), fill in the blocks.
+name: my-skill
+description: One line — what this skill produces and for whom.
+inputs:
+  file: What file the skill expects (its contents are available as {file_contents})
+prompt: |
+  Task: <what you want done — specific verb + object>
+
+  Context:
+  {file_contents}
+
+  Constraints:
+  - <what to avoid, standards to follow, limits on scope>
+  - <what the AI must not assume or invent>
+
+  Output format:
+  <bullets / table with named columns / JSON schema / email with subject line>

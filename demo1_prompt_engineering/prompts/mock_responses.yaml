@@ -1,0 +1,219 @@
+# Canned outputs used when LLM_PROVIDER=mock. Realistic, not idealized:
+# run1 is deliberately vague, run5 exposes a small arithmetic slip to discuss.
+run1: |
+  I'd be happy to help analyze your data! However, I don't see any data attached
+  to your message. Could you share the dataset you'd like me to look at?
+
+  In general, a good analysis covers descriptive statistics, trends over time,
+  outliers, and correlations between variables. Once you provide the data, I can
+  suggest the most relevant approach.
+
+run2: |
+  Here is an initial analysis of the Q3 regional sales sample:
+
+  - **Southeast** is the strongest region shown, at $1.51M against a $1.40M target.
+  - **Midwest** and **West** are close to target (within ~5%).
+  - **Northeast** and **Southwest** are below target; Southwest has the widest gap
+    and also the highest returns (90), which may be worth investigating.
+
+  With the remaining rows I could rank all regions, compute total variance to plan,
+  and look at returns as a percentage of units. Would you like me to do that?
+
+run3: |
+  | Region | Actual | Target | Gap % |
+  |---|---|---|---|
+  | Southwest | 720,000 | 950,000 | -24.2% |
+  | Canada | 540,000 | 650,000 | -16.9% |
+  | Gulf Coast | 690,000 | 800,000 | -13.8% |
+
+run4: |
+  | Region | Actual | Target | Gap % |
+  |---|---|---|---|
+  | Southwest | 720,000 | 950,000 | -24.2% |
+  | Canada | 540,000 | 650,000 | -16.9% |
+  | Gulf Coast | 690,000 | 800,000 | -13.8% |
+
+run5: |
+  **Gap % per region** — (actual − target) / target
+
+  - Midwest: (1,240,000 − 1,300,000) / 1,300,000 = −4.6%
+  - Northeast: (980,000 − 1,100,000) / 1,100,000 = −10.9%
+  - Southeast: (1,510,000 − 1,400,000) / 1,400,000 = +7.9%
+  - Southwest: (720,000 − 950,000) / 950,000 = −24.2%
+  - West: (1,330,000 − 1,350,000) / 1,350,000 = −1.5%
+  - Mountain: (610,000 − 700,000) / 700,000 = −12.9%
+  - Great Lakes: (1,105,000 − 1,050,000) / 1,050,000 = +5.2%
+  - Pacific NW: (870,000 − 1,000,000) / 1,000,000 = −13.0%
+  - Gulf Coast: (690,000 − 800,000) / 800,000 = −13.8%
+  - Mid-Atlantic: (1,010,000 − 1,020,000) / 1,020,000 = −1.0%
+  - Canada: (540,000 − 650,000) / 650,000 = −16.9%
+  - Mexico: (480,000 − 500,000) / 500,000 = −4.0%
+
+  **Top 3 underperforming regions**
+
+  | Region | Actual | Target | Gap % |
+  |---|---|---|---|
+  | Southwest | 720,000 | 950,000 | -24.2% |
+  | Canada | 540,000 | 650,000 | -16.9% |
+  | Gulf Coast | 690,000 | 800,000 | -13.8% |
+
+  Note: Pacific NW (−13.0%) and Mountain (−12.9%) are close behind Gulf Coast.
+
+run6: |
+  {"regions": [
+    {"region": "Southwest", "actual": 720000, "target": 950000, "gap_pct": -24.2,
+     "likely_driver": "Highest return count in the dataset (90); demand may be present but fulfillment quality is not"},
+    {"region": "Canada", "actual": 540000, "target": 650000, "gap_pct": -16.9,
+     "likely_driver": "Small base with a target set 20% above prior quarter; likely a planning issue rather than a demand issue"},
+    {"region": "Gulf Coast", "actual": 690000, "target": 800000, "gap_pct": -13.8,
+     "likely_driver": "Returns (52) are elevated relative to units (1,725)"}
+   ],
+   "recommended_action": "Review return root causes in Southwest and Gulf Coast before adjusting targets; re-baseline the Canada target against the last four quarters."}
+
+skill_analyze: |
+  **Key trends**
+  - Total Q4 actual is $11.62M against a $12.34M target (−5.8%).
+  - Gulf Coast (−23.5%) and Southwest (−14.7%) remain the two largest gaps; Gulf Coast worsened versus Q3.
+  - Midwest, Great Lakes, Mountain, and Mexico met or beat target.
+
+  **Anomalies**
+  - Gulf Coast returns rose to 63 on fewer units — return rate 3.9%, highest in the set.
+
+  **Suggested chart**: horizontal bar of gap % by region, sorted, with a zero line.
+
+skill_summarize_meeting: |
+  **Decisions**
+  - Ship the supplier scorecard to regional leads by Friday.
+  - Freeze new-vendor onboarding in Gulf Coast until the returns review completes.
+
+  **Action items**
+  | Owner | Action | Due |
+  |---|---|---|
+  | Priya | Pull return root-cause codes for Southwest and Gulf Coast | Wed |
+  | Marcus | Re-baseline Canada target using trailing four quarters | Thu |
+  | Dana | Draft supplier email for the lowest on-time performer | Fri |
+
+  **Open questions**
+  - Do we escalate the Gulf Coast supplier to procurement leadership this quarter?
+
+skill_draft_email: |
+  Subject: Q4 on-time delivery — next steps
+
+  Hi [Supplier contact],
+
+  Your on-time rate for Q4 came in at 71%, against the 95% agreed in our service
+  terms. Three of the late shipments blocked production runs in our Gulf Coast
+  facility.
+
+  We value the relationship and want to fix this together. Please send a corrective
+  action plan by [date] covering root causes and the timeline to return to 95%.
+
+  Could you confirm receipt of this note by end of week?
+
+  Regards,
+  [Name]
+
+office1: |
+  This table is a monthly supplier performance log. Each row is one supplier in one month:
+  `supplier_id` and `supplier_name` identify the vendor, `category` is what they supply
+  (hydraulics, electronics, castings, fasteners, rubber & seals, steel), and `region` is where
+  they ship to. `shipments` and `late_shipments` are counts for the month, `on_time_pct` is
+  the derived percentage, `defects` counts rejected units, and `spend_usd` is what we paid.
+
+  It covers January through December 2026 for 40 suppliers, so roughly 480 rows. A few rows
+  have a blank region and the file appears to contain a couple of repeated rows, so I would
+  de-duplicate before totaling anything.
+
+office2: |
+  | Supplier | Region | Avg on-time % | Trend |
+  |---|---|---|---|
+  | Delta Seals | Northeast | 55.6% | Worsening |
+  | Riverbend Rubber | Canada | 69.8% | Worsening |
+  | Harbor Forge | Northeast | 72.4% | Flat |
+
+  For executives, use a line chart of monthly on-time % for these three suppliers with a
+  horizontal 95% target line, so the gap and the direction are visible at a glance.
+
+office3: |
+  **Duplicates and blanks**
+  - Exact duplicate rows: 2 (Prairie Hydraulics 2026-03; Pinecrest Alloys 2026-09)
+  - Blank region: 4 rows — Copperline Inc (2026-05, 2026-10) and Sable Logistics (2026-05, 2026-10)
+
+  **By region** (duplicates removed, blanks shown separately)
+
+  | Region | Total spend | Avg on-time % | Total defects |
+  |---|---|---|---|
+  | Southeast | $1,462,318 | 88.9 | 172 |
+  | Midwest | $1,299,004 | 90.4 | 158 |
+  | West | $1,105,776 | 91.2 | 131 |
+  | Northeast | $1,022,450 | 86.7 | 149 |
+  | Gulf Coast | $884,209 | 79.5 | 121 |
+  | Southwest | $861,332 | 85.1 | 118 |
+  | Canada | $602,118 | 92.0 | 66 |
+  | Mexico | $588,905 | 90.8 | 71 |
+  | (blank) | $41,210 | 89.3 | 5 |
+
+  *Verify one:* Canada spend = sum of `spend_usd` where region = Canada. I get $602,118 — check
+  it with `=SUMIF(D:D,"Canada",J:J)` in Excel. (Mock output: treat every figure here as a claim
+  to verify, which is the point of step 3.)
+
+office4: |
+  Subject: On-time delivery — corrective action plan needed
+
+  Hi [Account manager],
+
+  Delta Seals' on-time delivery averaged 56% across 2026 and has declined every quarter,
+  against the 95% target in our supply agreement. Late shipments in the last three months
+  interrupted two production runs at our Northeast facility.
+
+  We value the relationship and want to resolve this together. Please send a corrective
+  action plan covering root causes and the timeline to return to 95%.
+
+  Can you confirm receipt by Friday, September 25, with the plan to follow by October 9?
+
+  Regards,
+  [Name]
+
+office5: |
+  **1. Supplier performance, 2026 at a glance**
+  - 40 suppliers, $7.9M spend, 88.4% average on-time vs. 95% target
+  - 3 suppliers below 80%; 2 trending worse all year
+  - Duplicate and incomplete rows cleaned before analysis
+  *Notes: Open with the gap to target. Say up front that the data was cleaned, so no one asks later.*
+
+  **2. Three lowest performers**
+  - Delta Seals 56%, worsening
+  - Riverbend Rubber 70%, worsening
+  - Harbor Forge 72%, flat
+  *Notes: Line chart with 95% line. The two worsening suppliers are the ask; Harbor Forge is stable and can wait.*
+
+  **3. Regional comparison**
+  - Northeast lowest on-time, dragged down by Delta Seals and Harbor Forge
+  - Regional totals in step 3 — verify before presenting
+  *Notes: One bar chart, sorted. Make the point that one supplier drags a whole region.*
+
+  **4. Defects vs. spend**
+  - Defect rate is not correlated with spend level
+  - Two mid-spend suppliers account for 20% of defects
+  *Notes: Scatter plot. This preempts "we should just buy cheaper."*
+
+  **5. Recommended actions**
+  - Corrective action plans from Delta Seals and Riverbend Rubber by October 9
+  - Freeze new orders to Delta Seals pending plan
+  - Fix the export that produces duplicate rows
+  *Notes: End with owners and dates. Ask for the decision on the freeze in the room.*
+
+office6: |
+  **Decisions**
+  - Freeze new orders to Delta Seals until they submit a corrective action plan.
+  - Regional summary deck goes to leadership on Monday.
+
+  **Action items**
+  | Owner | Action | Due |
+  |---|---|---|
+  | Marcus | Send corrective-action email to Delta Seals | Friday |
+  | Priya | Build regional summary deck for leadership | Monday |
+  | Priya | Ask IT why the export repeats rows | unassigned date |
+
+  **Open questions**
+  - Whether Harbor Forge (under 80%, flat) gets the same treatment as Delta Seals.

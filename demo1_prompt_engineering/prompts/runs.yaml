@@ -1,0 +1,63 @@
+# The six-run demo. Each run adds ONE thing so the audience can attribute the change.
+# {data_header}, {data_sample}, {data_full} are filled from data/q3_sales.csv.
+runs:
+  - id: 1
+    name: Zero-shot, vague
+    adds: Nothing. This is the prompt most people type.
+    prompt: |
+      Analyze this data.
+
+  - id: 2
+    name: Add context
+    adds: The actual data (header + sample rows) instead of a description of it.
+    prompt: |
+      Analyze this data.
+
+      Here is the Q3 regional sales sheet (CSV):
+      {data_sample}
+      ... (12 rows total)
+
+  - id: 3
+    name: Add constraints + output format
+    adds: A specific task verb, a scope limit (top 3), and the exact output shape.
+    prompt: |
+      Analyze the Q3 regional sales sheet below. Identify the top 3 underperforming
+      regions versus target. Return the findings as a 3-row table with columns
+      Region, Actual, Target, Gap %. No commentary before the table.
+
+      {data_full}
+
+  - id: 4
+    name: Few-shot
+    adds: One worked example of the row format we want.
+    prompt: |
+      Analyze the Q3 regional sales sheet below. Identify the top 3 underperforming
+      regions versus target. Return a 3-row table exactly like this example:
+
+      | Region | Actual | Target | Gap % |
+      |---|---|---|---|
+      | Example-North | 812,000 | 900,000 | -9.8% |
+
+      {data_full}
+
+  - id: 5
+    name: Chain-of-thought
+    adds: A request to show the calculation before the answer, so errors are visible.
+    prompt: |
+      Analyze the Q3 regional sales sheet below. First, list each region's gap %
+      as (actual - target) / target, showing the arithmetic. Then give the final
+      3-row table of the top 3 underperforming regions: Region, Actual, Target, Gap %.
+
+      {data_full}
+
+  - id: 6
+    name: Role + structured output
+    adds: A persona for tone/expertise and JSON output for downstream tools.
+    system: You are a senior supply-chain analyst. Be precise, cite numbers, and never speculate beyond the data.
+    prompt: |
+      Analyze the Q3 regional sales sheet below. Identify the top 3 underperforming
+      regions versus target. Return ONLY valid JSON:
+      {{"regions": [{{"region": str, "actual": int, "target": int, "gap_pct": float, "likely_driver": str}}],
+        "recommended_action": str}}
+
+      {data_full}
